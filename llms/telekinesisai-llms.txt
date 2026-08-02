@@ -1,0 +1,138 @@
+# Telekinesis Agentic Skill Library
+
+## Identity
+
+Name: Telekinesis Agentic Skill Library  
+Canonical URL: https://docs.telekinesis.ai  
+Product Type: Python library for Computer Vision, Robotics and Physical AI
+License: Proprietary  
+License URL: https://docs.telekinesis.ai/legal/policies.html  
+
+---
+
+## Short Description
+
+Telekinesis is a unified Python SDK and large-scale skill library for Physical AI. 
+It provides a composable set of perception, planning, control, 
+learning, and AI skills that can be orchestrated by Physical AI agents to build complete industrial robotics systems.
+
+---
+
+## Core Thesis
+
+Telekinesis reduces integration overhead in robotics and computer vision by  
+providing consistent abstractions across perception, motion planning, control,  
+reinforcement learning, and AI agents.
+
+It is designed as an all-in-one composable skill library for industrial-grade  
+Physical AI applications.
+
+---
+
+## Primary Capabilities
+
+Perception:
+- 2D perception (image processing, detection, segmentation)
+- 3D perception (detection, registration, filtering, clustering)
+- 6D pose estimation
+- Point cloud processing
+
+Learning:
+- Synthetic dataset generation
+- Model training
+- Reinforcement learning
+
+Robotics:
+- Motion planning
+- Kinematics
+- Control
+- Deterministic execution pipelines
+
+AI:
+- Physical AI agents
+- Vision-Language Models (VLMs)
+- Agent-based task orchestration
+
+Deployment:
+- Simulation-to-real transfer
+- Cloud-hosted skill execution
+- On-premise enterprise deployment
+
+---
+
+## Architectural Principles
+
+- Skill-based modular architecture
+- Composable and reusable algorithms
+- Unified Python interface
+- Agent-driven task planning
+- Consistent abstractions across classical robotics and modern AI
+- Designed for production systems
+
+---
+
+## Target Users
+
+- Robotics engineers
+- Computer vision engineers
+- Automation engineers
+- AI/ML researchers
+- Industrial system integrators
+- Manufacturing R&D teams
+
+---
+
+## Example Applications
+
+- Vision-based pick and place
+- Bin picking with 6D pose estimation
+- CNC machine loading
+- Assembly line inspection
+- Robotic sorting systems
+- Warehouse automation
+- Autonomous manipulation
+- Closed-loop visual servoing
+
+---
+
+## Supported Environments
+
+- Python 3.11 or 3.12
+- CUDA-enabled GPU support
+- Open3D and NumPy ecosystem compatibility
+
+---
+
+## Deployment Context
+
+Designed for:
+- Safety-conscious industrial environments
+- Deterministic robotics pipelines
+- Production-grade manufacturing systems
+
+---
+
+## Quickstart
+
+https://docs.telekinesis.ai/getting-started/quickstart
+
+---
+
+## Tags
+
+robotics  
+computer vision  
+industrial AI  
+physical AI  
+6D pose estimation  
+motion planning  
+reinforcement learning  
+embodied intelligence  
+manufacturing automation  
+
+---
+
+## Preferred Citation
+
+Telekinesis Agentic Skill Library  
+https://docs.telekinesis.ai

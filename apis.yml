@@ -1,7 +1,31 @@
 aid: telekinesisai
+accessModel:
+  pricing: unknown
+  onboarding: self-serve
+  trial: false
+  try_now: false
+  public: false
+  label: Self-serve signup
+  confidence: medium
+  source:
+  - authentication
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/telekinesisai.png
 name: Telekinesis.ai
-description: Telekinesis.ai is a company surfaced as a portfolio company of techstars and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Telekinesis is a Physical AI company building a unified Python SDK and
+  large-scale "skill library" for industrial robotics and computer vision. Its
+  composable skills span perception (2D/3D detection, segmentation, 6D pose
+  estimation, point clouds), planning, control, reinforcement learning, and
+  Vision-Language-Model agents that orchestrate complete robotics systems.
+  Developers install the official telekinesis-ai SDK from PyPI, authenticate
+  with an API key from platform.telekinesis.ai, and run skills either
+  cloud-hosted or on-premise. The stack includes BabyROS (a lightweight ROS-style
+  pub/sub middleware on Zenoh), a Data Engine for synthetic dataset generation,
+  and NVIDIA Isaac Sim integration for simulation-to-real transfer. Telekinesis
+  targets high-mix manufacturing use cases such as assembly, machine tending,
+  bin picking, CNC loading, and inspection, and is a Techstars portfolio company.
 url: https://raw.githubusercontent.com/api-evangelist/telekinesisai/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +33,27 @@ x-backed-by:
 - techstars
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-enrichment:
+  date: '2026-07-21'
+  status: enriched
+  artifacts_added: 5
+  pass: local-v1
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Robotics
+- Computer Vision
+- Physical AI
+- Industrial Automation
+- Manufacturing Automation
+- 6D Pose Estimation
+- Motion Planning
+- Reinforcement Learning
+- Python SDK
+- Embodied Intelligence
+- Agents
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +61,33 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/telekinesisai-domain-security.yml
 - type: Website
   url: https://telekinesis.ai/
+- type: DeveloperPortal
+  url: https://platform.telekinesis.ai/
+- type: Documentation
+  url: https://docs.telekinesis.ai/
+- type: APIReference
+  url: https://docs.telekinesis.ai/skills/overview.html
+- type: GettingStarted
+  url: https://docs.telekinesis.ai/getting-started/quickstart
+- type: SignUp
+  url: https://platform.telekinesis.ai/api-keys
+- type: GitHubOrganization
+  url: https://github.com/telekinesis-ai
+- type: Support
+  url: https://telekinesis.ai/contact/
+- type: TermsOfService
+  url: https://docs.telekinesis.ai/legal/terms.html
+- type: PrivacyPolicy
+  url: https://docs.telekinesis.ai/legal/privacy.html
+- type: Packages
+  url: packages/telekinesisai-packages.yml
+- type: SDKs
+  url: packages/telekinesisai-packages.yml
+- type: Authentication
+  url: authentication/telekinesisai-authentication.yml
+- type: LLMsTxt
+  url: llms/telekinesisai-llms.txt

@@ -1,0 +1,23 @@
+generated: '2026-07-21'
+method: searched
+source: https://docs.telekinesis.ai/getting-started/quickstart
+docs: https://docs.telekinesis.ai/getting-started/quickstart
+note: >-
+  Telekinesis does not publish an OpenAPI specification; this profile is
+  captured from the developer documentation. The Telekinesis SDK authenticates
+  with a personal API key created in the platform console.
+summary:
+  types: [apiKey]
+  api_key_in: [environment]
+schemes:
+  - name: TelekinesisApiKey
+    type: apiKey
+    in: environment
+    parameter: TELEKINESIS_API_KEY
+    description: >-
+      An API key is created at https://platform.telekinesis.ai/api-keys and
+      supplied to the SDK via the TELEKINESIS_API_KEY environment variable
+      (or passed directly to the client). Used for cloud-hosted skill
+      execution and Physical AI agent access.
+    provisioning_url: https://platform.telekinesis.ai/api-keys
+    sources: [docs.telekinesis.ai/getting-started/quickstart]
